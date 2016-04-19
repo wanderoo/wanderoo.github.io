@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- use google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet' type='text/css'>
+  <!--
+  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+  -->
+  <link href='https://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+  <meta charset="utf-8">
+  
+  
+  <title>Wanderoo&#39;s Homepage</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wanderoo's Homepage">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Wanderoo's Homepage">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Wanderoo's Homepage">
+<meta name="twitter:description">
+  
+    <link rel="alternative" href="/atom.xml" title="Wanderoo&#39;s Homepage" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/">Wanderoo&#39;s Homepage</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+	</div>
+</header>
+    <div id="main">
+      
+  
+    <article id="post-Fonts" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2016/04/14/Fonts/" class="article-date">
+  <time datetime="2016-04-14T15:19:07.000Z" itemprop="datePublished">2016-04-14</time>
+</a>
+		</span>
+		<span class="meta-elements author">Wanderoo</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2016/04/14/Fonts/">Fonts</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<h3 id="Where-are-the-fonts"><a href="#Where-are-the-fonts" class="headerlink" title="Where are the fonts ?"></a>Where are the fonts ?</h3><p>I didn’t know how to add new fonts to web pages before. I thought the local fonts are available on webpages by default, and adding local fonts will do the magic. Well, that may really works, I don’t know. But I find a far better way <a href="http://baoxiehao.com/2015/02/01/Learn%20to%20Code%20HTML%20&amp;%20CSS%2006/" target="_blank" rel="external">here</a>.<br>when we want to add our local fonts(downloaded from internet), we need to write css like this:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">"Lobster"</span>;</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">local</span>(<span class="string">"Lobster"</span>), <span class="built_in">url</span>(<span class="string">"lobster.woff"</span>) <span class="built_in">format</span>(<span class="string">"woff"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>Then you can use it like:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">"Lobster"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>And if we want to use remote fonts, we can write like this:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">'Lobster'</span>;</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">local</span>(<span class="string">'Lobster'</span>), <span class="built_in">url</span>(https://fonts.gstatic.com/s/lobster/v16/c28rH3kclCLEuIsGhOg7evY6323mHUZFJMgTvxaG2iE.woff2) <span class="built_in">format</span>(<span class="string">'woff2'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>And today, I find the <strong>awesome</strong>, <strong>cool</strong>, <strong>wonderful</strong>, <strong>amazing</strong> precious: <a href="https://www.google.com/fonts" target="_blank" rel="external"><strong>the google fonts</strong></a>.<br>I am a little upset that I didn’t heard it before, how could it be?</p>
+<p>Anyway, font will not be a problem anymore !</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Web/">Web</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+
+
+  
+    <article id="post-Clock" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2016/04/11/Clock/" class="article-date">
+  <time datetime="2016-04-11T09:37:24.000Z" itemprop="datePublished">2016-04-11</time>
+</a>
+		</span>
+		<span class="meta-elements author">Wanderoo</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2016/04/11/Clock/">Clock</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<h3 id="Another-Clock"><a href="#Another-Clock" class="headerlink" title="Another Clock ?"></a>Another Clock ?</h3><p>Yes, you may have read my <a href="http://wanderoo.github.io/2016/04/11/Binary-Clock/" target="_blank" rel="external"><strong>Binary Clock</strong></a> before. But this clock is different.</p>
+<h3 id="Terminal-clock"><a href="#Terminal-clock" class="headerlink" title="Terminal clock"></a>Terminal clock</h3><p>Just like the <strong>Binary Clock</strong>, I didn’t use ncurses, but it runs well on many terminals. You can find the source code on <a href="https://github.com/wanderoo/clock" target="_blank" rel="external">github</a>.<br>This is how it looks:<br><img src="https://raw.githubusercontent.com/wanderoo/resources/master/clock_1.gif" alt=""></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-Clock/">C, Clock</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+
+
+  
+    <article id="post-Binary-Clock" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2016/04/11/Binary-Clock/" class="article-date">
+  <time datetime="2016-04-11T09:04:05.000Z" itemprop="datePublished">2016-04-11</time>
+</a>
+		</span>
+		<span class="meta-elements author">Wanderoo</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2016/04/11/Binary-Clock/">Binary Clock</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<h3 id="what-is-a-Binary-Clock"><a href="#what-is-a-Binary-Clock" class="headerlink" title="what is a Binary Clock ?"></a>what is a Binary Clock ?</h3><p>The awesome <a href="https://en.wikipedia.org/wiki/Binary_clock" target="_blank" rel="external"><strong>wikipedia</strong></a> will tell you what is a <em>Binary Clock</em> if you haven’t heard it before. In general, a <em>Binary Clock</em> is just a normal clock, only it shows numbers with some points instead of the 0-9 characters.<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Digital-BCD-clock.jpg/800px-Digital-BCD-clock.jpg" alt="This is a binary clock"></p>
+<h3 id="A-Binary-Clock-runs-on-terminal"><a href="#A-Binary-Clock-runs-on-terminal" class="headerlink" title="A Binary Clock runs on terminal"></a>A Binary Clock runs on terminal</h3><p>I wrote a binary clock that runs on termial, you can find the source code <a href="https://github.com/wanderoo/binaryclock" target="_blank" rel="external"><strong>here</strong></a>. It’s written in C.<br>This program is <strong>NOT</strong> based on <a href="https://en.wikipedia.org/wiki/Ncurses" target="_blank" rel="external"><strong>ncurses</strong></a>, but I still beleive that you can run it on most terminals.<br>You can change the size of the points by passing different command line argument to it.<br>Here is this program:<br><img src="https://raw.githubusercontent.com/wanderoo/resources/master/bclock_1.gif" alt=""></p>
+<p>I have also tested it on VT100.</p>
+<p>have fun ;)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-Clock/">C, Clock</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+
+
+  
+    <article id="post-start" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2016/04/10/start/" class="article-date">
+  <time datetime="2016-04-10T13:22:27.000Z" itemprop="datePublished">2016-04-10</time>
+</a>
+		</span>
+		<span class="meta-elements author">Wanderoo</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2016/04/10/start/">start</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<h3 id="notes-for-creating-blog"><a href="#notes-for-creating-blog" class="headerlink" title="notes for creating blog"></a>notes for creating blog</h3><p>install hexo command first<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p>create a new folder for blog files (<code>npm install</code> will run automatically)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure></p>
+<p>create new article<br>(you can create the markdown file by yourself, but you will need to add some content on the top of the file)<br>(if the layout is not given, the <code>default_layout</code> from <code>_config.yml</code> will be used)<br>if there’s space in the title, “-“ will be used on filenames.<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></p>
+<p>generate html files from markdown files<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></p>
+<p>deploy to github (you may need to change <code>url</code>, <code>root</code> and <code>deploy</code> in <code>_config.yml</code> before deploy), for example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">url: http://wanderoo.github.io/myblog/</span><br><span class="line">root: /myblog</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/wanderoo/myblog.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure></p>
+<p>then you can deploy<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+<p>start a local server for testing<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br><span class="line">hexo server --port 8000 <span class="comment">#override the default port(4000) to 8000, same as `-p`</span></span><br><span class="line">hexo server --static    <span class="comment">#only serve static files, same as `-s`</span></span><br><span class="line">hexo server --log       <span class="comment">#enable logger. override logger format</span></span><br><span class="line">hexo server --debug     <span class="comment">#enable debug print</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="beyond-basic"><a href="#beyond-basic" class="headerlink" title="beyond basic"></a>beyond basic</h4><p>watch files and generate when file changes<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate --watch</span><br><span class="line"><span class="comment">#or</span></span><br><span class="line">hexo generate -w</span><br></pre></td></tr></table></figure></p>
+<p>deploy after generation finishes<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate --deploy</span><br><span class="line"><span class="comment">#or</span></span><br><span class="line">hexo generate <span class="_">-d</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h3><p>there is <strong>no</strong> difference between<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate --deploy</span><br><span class="line">hexo deploy --generate</span><br></pre></td></tr></table></figure></p>
+<p><code>_config.yml</code> is ignored when deploying to github, so run <code>hexo clean</code> after changing your theme. Then you can do <code>hexo deploy</code>.</p>
+<h3 id="notes-for-markdown"><a href="#notes-for-markdown" class="headerlink" title="notes for markdown"></a>notes for markdown</h3><p><strong>bold</strong> <em>italic</em> (the space is necessary)<br><strong>bold*</strong>italic*(this is what happend when space missing)</p>
+<p>no way for both <strong>bold</strong> <em>italic</em></p>
+<h3 id="Table-test"><a href="#Table-test" class="headerlink" title="Table test"></a>Table test</h3><p>speial variable for bash<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$ $! $? $- $* <span class="variable">$@</span> <span class="variable">$#</span> <span class="variable">$0</span> <span class="variable">$1</span>..<span class="variable">$n</span></span><br></pre></td></tr></table></figure></p>
+<table>
+<thead>
+<tr>
+<th>Var</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$$</td>
+<td>PID of the current script</td>
+</tr>
+<tr>
+<td>$!</td>
+<td>PID of the last background process</td>
+</tr>
+<tr>
+<td>$?</td>
+<td>exit code of last process</td>
+</tr>
+<tr>
+<td>$-</td>
+<td>all flags of <code>set</code></td>
+</tr>
+<tr>
+<td>$*</td>
+<td>arguments list as “$1 $2 $3… $n”</td>
+</tr>
+<tr>
+<td>$@</td>
+<td>arguments list as “$1” “$2” “$3”… “$n”</td>
+</tr>
+<tr>
+<td>$#</td>
+<td>number of arguments</td>
+</tr>
+<tr>
+<td>$0</td>
+<td>script name</td>
+</tr>
+<tr>
+<td>$n</td>
+<td>the nth argument</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://www.baidu.com" target="_blank" rel="external">search on baidu</a><br>some images are available</p>
+<p><img src="https://img1.doubanio.com/view/movie_poster_cover/spst/public/p707509468.jpg" alt=""></p>
+<p>some are not<br><img src="https://img3.doubanio.com/view/photo/photo/public/p874840311.jpg" alt=""></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+
+
+  
+  
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/">Wanderoo&#39;s Homepage</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2016 Wanderoo<br>
+		Modify from <a href="https://github.com/joyceim/hexo-theme-apollo.git" target="_blank">hexo-theme-apollo</a> theme, designed by <a href="http://wanderoo.github.io" target="_blank">wanderoo</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+
+    <!-- no need for global here, comment set in article.ejs
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+-->
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
